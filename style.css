@@ -1,0 +1,50 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+.header{
+    background-image: url(./img/night-forest_1308-69877.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box {
+    height: 145px;
+    width: 302px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(4px);
+}
+
+.title{
+    font-weight: lighter;
+    font-size: 23px;
+    color: #fff;
+}
+
+.password {
+    height: 25px;
+    width: 213px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit {
+    height: 25px;
+    width: 113px;
+}
+
+@media screen and (max-width: 425px){
+    .header{
+        background-image: url(./img/photo-1505322022379-7c3353ee6291.jpeg);
+    }
+}
